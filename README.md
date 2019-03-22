@@ -46,9 +46,9 @@ Add `altesis` to the plugins section of your `.eslintrc` configuration file. You
 
 ```json
 {
-    "plugins": [
-        "altesis"
-    ]
+  "plugins": [
+    "altesis"
+  ]
 }
 ```
 
@@ -57,9 +57,9 @@ It does this by adding the following code:
 
 ```json
 {
-    "rules": {
-        "altesis/altesis": "error",
-    }
+  "rules": {
+    "altesis/altesis": "error",
+  }
 }
 ```
 
@@ -67,9 +67,10 @@ and
 
 ```json
 {
-    "extends": {
-        ["eslint:recommended", "plugin:altesis/altesis"]
-    }
+    "extends": [
+        "eslint:recommended",
+        "plugin:altesis/altesis"
+    ]
 }
 ```
 
