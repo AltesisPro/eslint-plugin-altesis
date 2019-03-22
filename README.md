@@ -21,7 +21,7 @@ function myFunc
   // ... code here
 }
 ```
-for better visula lineup, in accordance to [@KevlinHenney](https://twitter.com/KevlinHenney) visula style guide
+for better visual indentation lineup, in accordance to [@KevlinHenney](https://twitter.com/KevlinHenney) visula style guide
 
 
 ## Installation
