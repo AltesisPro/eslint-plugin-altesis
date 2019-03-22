@@ -78,4 +78,4 @@ and
 ## Rules and Configs exported
 
 The plugin exports a config: **`altesis`** that regulates code style and a rule, also **`altesis`**, that raises error in ESLint inline and fixes the errors on `eslint . --fix`.
-Feel free to explore the source code and propose modifications, expecially if yuo are a fan of Mr. Henney.
+Feel free to explore the source code and pull-request modifications, expecially if you are a fan of Mr. Henney.
