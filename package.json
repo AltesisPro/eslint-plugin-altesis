@@ -1,13 +1,13 @@
 {
   "name": "eslint-plugin-altesis",
   "version": "0.0.1",
-  "description": "Argument list on a new line must have same inentation as body",
+  "description": "This plugin encofrces a style guiede and adds a rule to conform to Kevlin Heney visual style guide for a function's argument list.",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Marco Santonastasi",
+  "author": "Marco Santonastasi<marco.santonastasi@altesis-pro.com>",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests --recursive"
