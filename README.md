@@ -1,6 +1,7 @@
-# eslint-plugin-kevlin-henney
+# eslint-plugin-altesis
 
-Enforce indentation when function argument list is on a new line so that it follows that of the functon\&#39;s body
+Enforce indentation when function argument list is on a new line so that it follows that of the functon's body.
+This is a tribute to Kevlin Henney visual style guidelines.
 
 ## Installation
 
@@ -10,42 +11,49 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-kevlin-henney`:
+Next, install `eslint-plugin-altesis`:
 
 ```
-$ npm install eslint-plugin-kevlin-henney --save-dev
+$ npm install eslint-plugin-altesis --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-kevlin-henney` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-altesis` globally.
 
 ## Usage
 
-Add `kevlin-henney` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `altesis` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "kevlin-henney"
+        "altesis"
     ]
 }
 ```
 
-
-Then configure the rules you want to use under the rules section.
+The plugin also takes care of activating the style rules and the configuration as per ESLint rules.
+It does this by adding the following code:
 
 ```json
 {
     "rules": {
-        "kevlin-henney/rule-name": 2
+        "altesis/altesis": "error",
     }
 }
 ```
 
-## Supported Rules
+and
 
-* Fill in provided rules here
+```json
+{
+    "extends": {
+        ["eslint:recommended", "plugin:altesis/altesis"]
+    }
+}
+```
 
 
+## Rules and Configs exported
 
-
-
+The plugin exports a config: **`altesis`** that regulates code style and a rule, also **`altesis`**, that raises error in ESLint inline and fixes the errors on `eslint . --fix`.
+Feel free to explore the source code and propose modifications, expecially if yuo are a fan of Mr. Henney.
