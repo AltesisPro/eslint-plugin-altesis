@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-altesis",
+  "version": "0.0.1",
+  "description": "Argument list on a new line must have same inentation as body",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Marco Santonastasi",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
