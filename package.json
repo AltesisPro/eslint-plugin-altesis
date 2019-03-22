@@ -7,6 +7,10 @@
     "eslintplugin",
     "eslint-plugin"
   ],
+  "repository": {
+  "type" : "git",
+  "url" : "https://github.com/AltesisPro/eslint-plugin-altesis.git"
+  }, 
   "author": "Marco Santonastasi<marco.santonastasi@altesis-pro.com>",
   "main": "index.js",
   "scripts": {
