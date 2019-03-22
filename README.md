@@ -3,6 +3,27 @@
 Enforce indentation when function argument list is on a new line so that it follows that of the functon's body.
 This is a tribute to Kevlin Henney visual style guidelines.
 
+## Example
+
+the visually incoherent "one true style" fucntion declaration indentation
+```javascript
+function myFunc (arg1, arg2) {
+  cosnt myConst = 'myString'
+  // ... code here
+}
+```
+becomes
+```javascript
+function myFunc
+  (arg1, arg2)
+{
+  cosnt myConst = 'myString'
+  // ... code here
+}
+```
+for better visula lineup, in accordance to [@KevlinHenney](https://twitter.com/KevlinHenney) visula style guide
+
+
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
