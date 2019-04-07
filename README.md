@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/eslint-plugin-altesis.svg?color=green&label=npm%20eslint-plugin-altesis&logo=eslint-plugin-altesis&style=flat-square)
+
 # eslint-plugin-altesis
 
 Enforce indentation when function argument list is on a new line so that it follows that of the functon's body.
